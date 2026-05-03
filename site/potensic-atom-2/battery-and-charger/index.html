@@ -1,0 +1,1253 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A new project generated from the default template project.">
+      
+      
+        <meta name="author" content="azwhikaru">
+      
+      
+      
+        <link rel="prev" href="../rc/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="zensical-0.0.39">
+    
+    
+      
+        <title>电池和充电器 - azwhikaru's Lab</title>
+      
+    
+    
+      
+        
+      
+      <link rel="stylesheet" href="../../assets/stylesheets/modern/main.1e981d71.min.css">
+      
+        
+          
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/modern/palette.dfe2e883.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,500,500i,700,700i%7CJetBrains+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,t)=>(e<<5)-e+t.charCodeAt(0)),0),__md_get=(e,t=localStorage,a=__md_scope)=>JSON.parse(t.getItem(a.pathname+"."+e)),__md_set=(e,t,a=localStorage,_=__md_scope)=>{try{a.setItem(_.pathname+"."+e,JSON.stringify(t))}catch(e){}},document.documentElement.setAttribute("data-platform",navigator.platform)</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer" aria-label="导航栏"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../.." title="azwhikaru&#x27;s Lab" class="md-header__button md-logo" aria-label="azwhikaru's Lab" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 7v14M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer" aria-label="导航栏">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-menu" viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            azwhikaru's Lab
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              电池和充电器
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-moon" viewBox="0 0 24 24"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search" aria-label="查找">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-search" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog" aria-label="查找">
+  <button type="button" class="md-search__button">
+    查找
+  </button>
+</div>
+      
+    
+    <div class="md-header__source">
+      
+    </div>
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="azwhikaru&#x27;s Lab" class="md-nav__button md-logo" aria-label="azwhikaru's Lab" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 7v14M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+
+    </a>
+    azwhikaru's Lab
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    首页
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Potensic ATOM 2
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Potensic ATOM 2
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../drone/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    无人机
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    遥控器
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    电池和充电器
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="././" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    电池和充电器
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        硬件
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="硬件">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        主板图示
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        硬件详细信息
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        通信
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="通信">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        引脚定义
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        数据包
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="数据包">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        充电器
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        电池
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  
+                    
+                    
+                    
+                      
+                    
+                    
+                      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+                      <div class="md-sidebar-button__wrapper">
+                        <label class="md-sidebar-button" for="__toc"></label>
+                      </div>
+                    
+                  
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        硬件
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="硬件">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        主板图示
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        硬件详细信息
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        通信
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="通信">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        引脚定义
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        数据包
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="数据包">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        充电器
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        电池
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="导航栏" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    首页
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Potensic ATOM 2
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+<h1 id="_1">电池和充电器<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<h2 id="_2">硬件<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<h3 id="_3">主板图示<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<p>图片和图片上的标注是本人拍摄和绘制的</p>
+<p><img alt="img" src="./assets/Potensic_ATOM_2_Charging_Hub_Board.jpg" /></p>
+<h3 id="_4">硬件详细信息<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">类型</th>
+<th style="text-align: center;">制造商</th>
+<th style="text-align: center;">型号</th>
+<th style="text-align: center;">规格</th>
+<th style="text-align: center;">手册或详情页</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">嵌入式控制器</td>
+<td style="text-align: center;">STM</td>
+<td style="text-align: center;">STM32G030C8T6</td>
+<td style="text-align: center;">64Mhz Cortex-M0+</td>
+<td style="text-align: center;"><a href="https://www.st.com/en/microcontrollers-microprocessors/stm32g030c8.html">详情页</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">锂电池充电芯片</td>
+<td style="text-align: center;">SouthChip</td>
+<td style="text-align: center;">SC8932A</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><a href="https://www.southchip.com/product/SC8932A">详情页</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="_5">通信<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<h3 id="_6">引脚定义<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<p>Potensic ATOM 2 使用智能电池，以 2.0mm 6-PIN 刀片型电池连接器与机身和充电器相连，并使用 UART 与它们通讯</p>
+<p>电池的引脚定义以充电管家正面 (带有 LED 和按键) 为参考</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">编号</th>
+<th style="text-align: center;">引脚</th>
+<th style="text-align: center;">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">R</td>
+<td style="text-align: center;">UART，电池 BMS 上报数据到充电器</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">N</td>
+<td style="text-align: center;">GND，在充电器中也被用于检测电池接入</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">P</td>
+<td style="text-align: center;">VCC</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">P</td>
+<td style="text-align: center;">VCC</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">N</td>
+<td style="text-align: center;">GND</td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">UART，充电器发送控制信号、心跳到电池 BMS</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_7">数据包<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<p><em>部分字段的含义是通过猜测得到的，可能缺少证据支撑，这一部分的字段将被星号标记。可能会在未来修订</em></p>
+<h4 id="_8">充电器<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h4>
+<p>充电器在引脚 6 上向电池发送数据，长度是 13 字节，内容是控制信号或心跳</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">偏移</th>
+<th style="text-align: center;">字段名</th>
+<th style="text-align: center;">长度</th>
+<th style="text-align: center;">数值</th>
+<th style="text-align: center;">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">Header 1</td>
+<td style="text-align: center;">1B</td>
+<td style="text-align: center;">0xFF</td>
+<td style="text-align: center;">帧起始符 1</td>
+</tr>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Header 2</td>
+<td style="text-align: center;">1B</td>
+<td style="text-align: center;">0xFE</td>
+<td style="text-align: center;">帧起始符 2 (充电器标识, 0xFE)</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Length</td>
+<td style="text-align: center;">1B</td>
+<td style="text-align: center;">0x09</td>
+<td style="text-align: center;">后续数据长度 (Byte 3-11)</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Channel</td>
+<td style="text-align: center;">1B</td>
+<td style="text-align: center;">0x00~0x02</td>
+<td style="text-align: center;">充电通道号 (对应 3 槽充电器)</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Command</td>
+<td style="text-align: center;">1B</td>
+<td style="text-align: center;">0x98</td>
+<td style="text-align: center;">状态轮询命令</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">Reserved</td>
+<td style="text-align: center;">1B</td>
+<td style="text-align: center;">0x00</td>
+<td style="text-align: center;">预留</td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">Control</td>
+<td style="text-align: center;">1B</td>
+<td style="text-align: center;">0x01 或 0x00</td>
+<td style="text-align: center;">是否开启充电 (1:开启, 0:关闭)</td>
+</tr>
+<tr>
+<td style="text-align: center;">7-10</td>
+<td style="text-align: center;">Padding</td>
+<td style="text-align: center;">4B</td>
+<td style="text-align: center;">0x00</td>
+<td style="text-align: center;">填充字节</td>
+</tr>
+<tr>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">Mode</td>
+<td style="text-align: center;">1B</td>
+<td style="text-align: center;">0x10 或 0x00</td>
+<td style="text-align: center;">是否有外部电源接入 (0x10: 外部电源接入, 0x00: 空闲)</td>
+</tr>
+<tr>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">Checksum</td>
+<td style="text-align: center;">1B</td>
+<td style="text-align: center;">XOR Result</td>
+<td style="text-align: center;">Byte 2 至 Byte 11 的异或和</td>
+</tr>
+</tbody>
+</table>
+<h4 id="_9">电池<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h4>
+<p>电池 BMS 在引脚 1 上向机身或充电器发送数据，长度是 49 字节，内容是电池 BMS 的一些信息</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">偏移</th>
+<th style="text-align: center;">字段名</th>
+<th style="text-align: center;">长度</th>
+<th style="text-align: center;">数值</th>
+<th style="text-align: center;">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">Header 1</td>
+<td style="text-align: center;">1B</td>
+<td style="text-align: center;">0xFF</td>
+<td style="text-align: center;">帧起始符 1</td>
+</tr>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Header 2</td>
+<td style="text-align: center;">1B</td>
+<td style="text-align: center;">0xFD</td>
+<td style="text-align: center;">帧起始符 2 (电池标识, 0xFD)</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Length</td>
+<td style="text-align: center;">1B</td>
+<td style="text-align: center;">0x2D</td>
+<td style="text-align: center;">载荷长度长度 (45 字节)</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Echo Ch</td>
+<td style="text-align: center;">1B</td>
+<td style="text-align: center;">Channel</td>
+<td style="text-align: center;">回显充电器发送的通道号</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Echo Cmd</td>
+<td style="text-align: center;">1B</td>
+<td style="text-align: center;">0x98</td>
+<td style="text-align: center;">回显充电器发送的命令字</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">Reserved</td>
+<td style="text-align: center;">1B</td>
+<td style="text-align: center;">0x00</td>
+<td style="text-align: center;">预留</td>
+</tr>
+<tr>
+<td style="text-align: center;">6-45</td>
+<td style="text-align: center;">Payload</td>
+<td style="text-align: center;">40B</td>
+<td style="text-align: center;">Encrypted</td>
+<td style="text-align: center;">电池 BMS 数据 (加密)</td>
+</tr>
+<tr>
+<td style="text-align: center;">46-47</td>
+<td style="text-align: center;">* Suffix</td>
+<td style="text-align: center;">2B</td>
+<td style="text-align: center;">0x01 0x84</td>
+<td style="text-align: center;">固定后缀 / 硬件标识</td>
+</tr>
+<tr>
+<td style="text-align: center;">48</td>
+<td style="text-align: center;">Checksum</td>
+<td style="text-align: center;">1B</td>
+<td style="text-align: center;">XOR Result</td>
+<td style="text-align: center;">Byte 2 至 Byte 47 的异或和</td>
+</tr>
+</tbody>
+</table>
+<p>电池 BMS 发送的数据中，有 40 字节的加密内容，加密内容使用双层 DES 加密</p>
+<p>下面是加密内容在解密后的明文结构，按照大端序排列</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">偏移</th>
+<th style="text-align: center;">字段名</th>
+<th style="text-align: center;">单位</th>
+<th style="text-align: center;">数值</th>
+<th style="text-align: center;">描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">Cell 1 Voltage</td>
+<td style="text-align: center;">mV</td>
+<td style="text-align: center;">uint16</td>
+<td style="text-align: center;">第 1 节电芯实时电压</td>
+</tr>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Cell 2 Voltage</td>
+<td style="text-align: center;">mV</td>
+<td style="text-align: center;">uint16</td>
+<td style="text-align: center;">第 2 节电芯实时电压</td>
+</tr>
+<tr>
+<td style="text-align: center;">2-3</td>
+<td style="text-align: center;">* Cell 3-4 Ext</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">uint16</td>
+<td style="text-align: center;">扩展</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">* Status Flags</td>
+<td style="text-align: center;">Mask</td>
+<td style="text-align: center;">uint16</td>
+<td style="text-align: center;">0x00C0 代表 CHG/DSG FET 均开启</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">Cycle Count</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">uint16</td>
+<td style="text-align: center;">电池循环次数</td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">Remaining Cap</td>
+<td style="text-align: center;">mAh</td>
+<td style="text-align: center;">uint16</td>
+<td style="text-align: center;">剩余可用电量 (绝对容量)</td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">Full Charge Cap</td>
+<td style="text-align: center;">mAh</td>
+<td style="text-align: center;">uint16</td>
+<td style="text-align: center;">电池当前实际满充容量</td>
+</tr>
+<tr>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">* Time To Empty</td>
+<td style="text-align: center;">min</td>
+<td style="text-align: center;">uint16</td>
+<td style="text-align: center;">剩余续航时间 (0xFFFF 为未知)</td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">Temperature</td>
+<td style="text-align: center;">K</td>
+<td style="text-align: center;">uint16</td>
+<td style="text-align: center;">开尔文温度</td>
+</tr>
+<tr>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">RSOC</td>
+<td style="text-align: center;">%</td>
+<td style="text-align: center;">uint16</td>
+<td style="text-align: center;">相对剩余容量百分比 (0-100)</td>
+</tr>
+<tr>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">Current</td>
+<td style="text-align: center;">mA</td>
+<td style="text-align: center;">int16</td>
+<td style="text-align: center;">实时电流: 正为充电, 负为放电</td>
+</tr>
+<tr>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">Total Voltage</td>
+<td style="text-align: center;">mV</td>
+<td style="text-align: center;">uint16</td>
+<td style="text-align: center;">电池组端总电压 (Cell 1 + Cell 2)</td>
+</tr>
+<tr>
+<td style="text-align: center;">13</td>
+<td style="text-align: center;">* Avg Current</td>
+<td style="text-align: center;">mA</td>
+<td style="text-align: center;">int16</td>
+<td style="text-align: center;">修正后的平均电流</td>
+</tr>
+<tr>
+<td style="text-align: center;">14</td>
+<td style="text-align: center;">SOH</td>
+<td style="text-align: center;">%</td>
+<td style="text-align: center;">uint16</td>
+<td style="text-align: center;">电池健康度 (当前容量 / 上次满充容量)</td>
+</tr>
+<tr>
+<td style="text-align: center;">15</td>
+<td style="text-align: center;">* Max Chg Curr</td>
+<td style="text-align: center;">mA</td>
+<td style="text-align: center;">uint16</td>
+<td style="text-align: center;">电池允许的最大充电电流限制</td>
+</tr>
+<tr>
+<td style="text-align: center;">16</td>
+<td style="text-align: center;">* Hardware Rev</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">uint16</td>
+<td style="text-align: center;">硬件版本号 (如 0x0184)</td>
+</tr>
+<tr>
+<td style="text-align: center;">17</td>
+<td style="text-align: center;">Device ID</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">uint8</td>
+<td style="text-align: center;">设备 ID (如 0x76)</td>
+</tr>
+<tr>
+<td style="text-align: center;">18</td>
+<td style="text-align: center;">FW Version</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">Bitfield</td>
+<td style="text-align: center;">字节 36: Major; 字节 37: Minor/Patch</td>
+</tr>
+<tr>
+<td style="text-align: center;">19</td>
+<td style="text-align: center;">* Build ID</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">uint8</td>
+<td style="text-align: center;">编译流水号</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-up" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16 12-4-4-4 4M12 16V8"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="页脚" >
+        
+          
+          <a href="../rc/" class="md-footer__link md-footer__link--prev" aria-label="上一页: 遥控器">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-left" viewBox="0 0 24 24"><path d="m12 19-7-7 7-7M19 12H5"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                上一页
+              </span>
+              <div class="md-ellipsis">
+                遥控器
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; azwhikaru
+
+    </div>
+  
+  
+    Made with
+    <a href="https://zensical.org/" target="_blank" rel="noopener">
+      Zensical
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate":null,"base":"../..","features":["announce.dismiss","content.code.annotate","content.code.copy","content.code.select","content.footnote.tooltips","content.tabs.link","content.tooltips","navigation.footer","navigation.indexes","navigation.instant","navigation.instant.prefetch","navigation.path","navigation.sections","navigation.top","navigation.tracking","search.highlight"],"search":"../../assets/javascripts/workers/search.e2d2d235.min.js","tags":null,"translations":{"clipboard.copied":"已复制","clipboard.copy":"复制","search.result.more.one":"在该页上还有 1 个符合条件的结果","search.result.more.other":"在该页上还有 # 个符合条件的结果","search.result.none":"没有找到符合条件的结果","search.result.one":"找到 1 个符合条件的结果","search.result.other":"# 个符合条件的结果","search.result.placeholder":"键入以开始搜索","search.result.term.missing":"缺少","select.version":"选择当前版本"},"version":null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.dbc0afdc.min.js"></script>
+      
+    
+  </body>
+</html>
