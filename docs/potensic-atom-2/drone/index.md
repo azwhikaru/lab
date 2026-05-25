@@ -4,11 +4,7 @@
 
 ### 主板图示
 
-图片来自 Potensic ATOM 2 的 FCC 报告 (2BK8B-DSDR23A)，图片上的标注是手工标注的
 
-![2BK8B-DSDR23A_TOP](./assets/2BK8B-DSDR23A_TOP.png)
-
-![2BK8B-DSDR23A_BOTTOM](./assets/2BK8B-DSDR23A_BOTTOM.png)
 
 ### 硬件详细信息
 

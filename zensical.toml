@@ -52,6 +52,14 @@ nav = [
       {"遥控器" = "potensic-atom-2/rc/index.md"},
       {"电池和充电器" = "potensic-atom-2/battery-and-charger/index.md"},
   ]},
+  { "Potensic ATOM 3" = [
+      "potensic-atom-3/index.md",
+      {"无人机" = "potensic-atom-3/drone/index.md"}
+  ]},
+  { "Potensic PTD" = [
+      "potensic-ptd/index.md",
+      {"概述" = "potensic-ptd/overview/index.md"}
+  ]}
 ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
