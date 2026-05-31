@@ -12,7 +12,7 @@ Potensic PTD 带屏遥控器目前有 2 种型号，其规格是相近的，在�
 |     RAM      |   TWSC   |          |       DDR4 2GB       |                                                              |
 |     ROM      |   TWSC   |          |      eMMC 32GB       |                                                              |
 |     图传     | Artosyn  | AR8032S2 | XuanTie E907 RV32IMA | [Artosyn 产品页](http://www.artosyn.cn/official_product/list/9/11.html), [XuanTie E907 详情页](https://www.xrvm.cn/product/xuantie/E907) |
-| 嵌入式控制器 |   STM    |          |                      |                                                              |
+| 嵌入式控制器 |   XHSC   |   HC32   |                      |                                                              |
 
 1. 因为缺少更多硬件信息，目前所了解的信息如上。将会按照实际情况补充更为具体的信息
 2. 似乎所有外围按键都与嵌入式控制器相连而不是 RK3568，**目前还没有找到有效的进入 MaskROM、Loader 或 Recovery、Fastboot、Fastbootd 的按键组合**，但仍能够通过 Shell 的 "reboot loader" 进入
