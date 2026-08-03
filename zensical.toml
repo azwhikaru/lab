@@ -59,7 +59,14 @@ nav = [
   { "Potensic PTD" = [
       "potensic-ptd/index.md",
       {"概述" = "potensic-ptd/overview/index.md"}
-  ]}
+  ]},
+  {
+    "Insta360 GO 3" = [
+        "insta360-go-3/index.md",
+        {"相机" = "insta360-go-3/camera/index.md"},
+        {"充电盒" = "insta360-go-3/box/index.md"}
+    ]
+  }
 ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
